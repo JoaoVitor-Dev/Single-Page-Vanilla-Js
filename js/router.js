@@ -3,7 +3,7 @@
 function Router(routes) {
     try {
         if (!routes) {
-            throw 'error: routes param is mandatory';
+            throw 'erro: o parâmetro de rotas é obrigatório!';
         }
         this.constructor(routes);
         this.init();
